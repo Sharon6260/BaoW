@@ -5,3 +5,8 @@ description = "這是上課用的專案"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "0516",
+]
