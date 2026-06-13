@@ -15,10 +15,7 @@ members = [
     "0516",
     "0600",
     "0601",
-<<<<<<< HEAD
-=======
     "0613",
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
     "baow",
 ]
 
@@ -26,7 +23,6 @@ members = [
 name = "0516"
 version = "0.1.0"
 source = { virtual = "0516" }
-<<<<<<< HEAD
 dependencies = [
     { name = "pandas" },
     { name = "requests" },
@@ -37,8 +33,6 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.3" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
-=======
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 
 [[package]]
 name = "0600"
@@ -49,14 +43,16 @@ source = { virtual = "0600" }
 name = "0601"
 version = "0.1.0"
 source = { virtual = "0601" }
-<<<<<<< HEAD
 dependencies = [
     { name = "pandas" },
+    { name = "requests" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pandas", specifier = ">=3.0.3" }]
-=======
+requires-dist = [
+    { name = "pandas", specifier = ">=3.0.3" },
+    { name = "requests", specifier = ">=2.34.2" },
+]
 
 [[package]]
 name = "0613"
@@ -98,14 +94,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/be/a5/8e3f9b6771b0b4085
 wheels = [
     { url = "https://files.pythonhosted.org/packages/d2/39/e7eaf1799466a4aef85b6a4fe7bd175ad2b1c6345066aa33f1f58d4b18d0/asttokens-3.0.1-py3-none-any.whl", hash = "sha256:15a3ebc0f43c2d0a50eeafea25e19046c68398e487b9f1f5b517f7c0f40f976a", size = 27047, upload-time = "2025-11-15T16:43:16.109Z" },
 ]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 
 [[package]]
 name = "baow"
 version = "0.1.0"
 source = { virtual = "." }
-<<<<<<< HEAD
-=======
 dependencies = [
     { name = "matplotlib" },
     { name = "pandas" },
@@ -120,7 +113,6 @@ requires-dist = [
     { name = "reportlab", specifier = ">=4.5.1" },
     { name = "requests", specifier = ">=2.34.2" },
 ]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 
 [[package]]
 name = "certifi"
@@ -132,8 +124,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "cffi"
 version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -179,7 +169,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "charset-normalizer"
 version = "3.4.7"
 source = { registry = "https://pypi.org/simple" }
@@ -237,8 +226,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -389,7 +376,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "idna"
 version = "3.18"
 source = { registry = "https://pypi.org/simple" }
@@ -399,8 +385,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "ipykernel"
 version = "7.3.0"
 source = { registry = "https://pypi.org/simple" }
@@ -636,7 +620,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "numpy"
 version = "2.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -687,8 +670,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "packaging"
 version = "26.2"
 source = { registry = "https://pypi.org/simple" }
@@ -698,7 +679,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "pandas"
 version = "3.0.3"
 source = { registry = "https://pypi.org/simple" }
@@ -743,8 +723,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "parso"
 version = "0.8.7"
 source = { registry = "https://pypi.org/simple" }
@@ -918,7 +896,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -931,8 +908,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "pyzmq"
 version = "27.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -989,7 +964,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "requests"
 version = "2.34.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1014,8 +988,6 @@ wheels = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "stack-data"
 version = "0.6.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1065,7 +1037,6 @@ wheels = [
 ]
 
 [[package]]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
 name = "tzdata"
 version = "2026.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1082,8 +1053,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/53/0c/06f8b233b8fd13b9e
 wheels = [
     { url = "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl", hash = "sha256:9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897", size = 131087, upload-time = "2026-05-07T16:13:17.151Z" },
 ]
-<<<<<<< HEAD
-=======
 
 [[package]]
 name = "wcwidth"
@@ -1093,4 +1062,3 @@ sdist = { url = "https://files.pythonhosted.org/packages/49/b4/51fe890511f0f242d
 wheels = [
     { url = "https://files.pythonhosted.org/packages/bd/6e/95b0e537de1f4d4301f76f944642c6da50d1511cc7b3d64dc418a66c7509/wcwidth-0.8.1-py3-none-any.whl", hash = "sha256:f453740b1e4a4f3291faa37944c555d71056c4da08d59809b307ef4feba695c8", size = 323092, upload-time = "2026-06-08T05:57:21.413Z" },
 ]
->>>>>>> c22942ee232c115c5d218bb965c91e837179210a
