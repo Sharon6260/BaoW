@@ -4,7 +4,13 @@ version = "0.1.0"
 description = "這是上課用的專案"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.10.9",
+    "numpy>=2.2.6",
+    "pandas>=2.3.3",
+    "pydantic>=2.13.4",
+    "yfinance>=1.5.1",
+]
 
 [tool.uv.workspace]
 members = [
